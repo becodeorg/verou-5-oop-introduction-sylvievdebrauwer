@@ -16,3 +16,21 @@ TODO: Print the temperature on the screen.
 USE TYPEHINTING EVERYWHERE!
 */
 
+<?php
+
+class beverage = 
+{
+    //  Properties
+    public string $color;
+    public float $price;
+    public string $temperature;
+
+    // Constructor
+    public function __construct(string $color,float $price,string $temperature)
+    {
+        $this->color = $color;
+        $this->price = $price;
+        $this->temperature = $temperature;
+    };
+}
+
